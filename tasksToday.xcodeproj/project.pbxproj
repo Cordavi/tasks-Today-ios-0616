@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2A0EF01D181F6F0094B94A /* FISEventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2A0EEF1D181F6F0094B94A /* FISEventDetailViewController.m */; };
+		2E2A0EF31D1838670094B94A /* FISCustomRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2A0EF21D1838670094B94A /* FISCustomRangeViewController.m */; };
 		603546018E6C43D49C92DBDC /* libPods-tasksTodayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254A474813AE4959A6146617 /* libPods-tasksTodayTests.a */; };
 		D8208CB41952F75100A0FA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CB31952F75100A0FA03 /* Foundation.framework */; };
 		D8208CB61952F75100A0FA03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8208CB51952F75100A0FA03 /* CoreGraphics.framework */; };
@@ -38,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		254A474813AE4959A6146617 /* libPods-tasksTodayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tasksTodayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2A0EEE1D181F6F0094B94A /* FISEventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISEventDetailViewController.h; sourceTree = "<group>"; };
+		2E2A0EEF1D181F6F0094B94A /* FISEventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEventDetailViewController.m; sourceTree = "<group>"; };
+		2E2A0EF11D1838670094B94A /* FISCustomRangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCustomRangeViewController.h; sourceTree = "<group>"; };
+		2E2A0EF21D1838670094B94A /* FISCustomRangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCustomRangeViewController.m; sourceTree = "<group>"; };
 		30DC76044E17B53B9A71E8C4 /* Pods-tasksTodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tasksTodayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tasksTodayTests/Pods-tasksTodayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8208CB01952F75100A0FA03 /* tasksToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tasksToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8208CB31952F75100A0FA03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +145,10 @@
 				D8208CC51952F75100A0FA03 /* Main.storyboard */,
 				D8208CC81952F75100A0FA03 /* FISViewController.h */,
 				D8208CC91952F75100A0FA03 /* FISViewController.m */,
+				2E2A0EF11D1838670094B94A /* FISCustomRangeViewController.h */,
+				2E2A0EF21D1838670094B94A /* FISCustomRangeViewController.m */,
+				2E2A0EEE1D181F6F0094B94A /* FISEventDetailViewController.h */,
+				2E2A0EEF1D181F6F0094B94A /* FISEventDetailViewController.m */,
 				D8208CCB1952F75100A0FA03 /* Images.xcassets */,
 				D8208CBA1952F75100A0FA03 /* Supporting Files */,
 			);
@@ -310,6 +320,8 @@
 				D8208CCA1952F75100A0FA03 /* FISViewController.m in Sources */,
 				D8208CC01952F75100A0FA03 /* main.m in Sources */,
 				D8208CC41952F75100A0FA03 /* FISAppDelegate.m in Sources */,
+				2E2A0EF01D181F6F0094B94A /* FISEventDetailViewController.m in Sources */,
+				2E2A0EF31D1838670094B94A /* FISCustomRangeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
